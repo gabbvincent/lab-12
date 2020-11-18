@@ -14,7 +14,7 @@ class DList {
 public:
   // Default constructor.
   // Initializes head to nullptr, size to 0.
-  SList() {
+  DList() {
     head = nullptr;
     size = 0;
   }
