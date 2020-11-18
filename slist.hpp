@@ -10,7 +10,7 @@ using std::ostringstream;
 using std::string;
 
 template <typename T>
-class SList {
+class DList {
 public:
   // Default constructor.
   // Initializes head to nullptr, size to 0.
@@ -21,7 +21,7 @@ public:
 
   // Destructor.
   // Invokes clear to free the memory associated with all nodes in the list.
-  ~SList() {
+  ~DList() {
     this->clear();
   }
 
